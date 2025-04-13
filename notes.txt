@@ -1,0 +1,21 @@
+By using Flexbox and media queries, this layout ensures that the webpage is responsive and works well across different devices and screen sizes.
+Key Points:
+Flexbox Layout:
+
+The main content area uses Flexbox (display: flex), allowing it to adapt its layout by adjusting the widths of its child elements based on available space.
+
+.content, .sidebar, and .main-content are flex items that automatically adjust to the width of the viewport.
+
+Navigation Bar:
+
+The navbar is centered using flex with a horizontal list of links, which adjusts to vertical for smaller screens.
+
+Media Queries:
+
+Max-width 768px: The layout changes for tablet-sized screens (e.g., the sidebar becomes full width).
+
+Max-width 480px: For mobile devices, further adjustments are made like the navbar items stacking vertically and reducing font sizes for better readability.
+
+Testing Across Devices:
+Test the layout across different screen sizes by resizing your browser or using the device simulator in developer tools. This ensures the page looks good on mobile, tablet, and desktop.
+
